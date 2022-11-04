@@ -5,9 +5,9 @@ function Comment(props) {
     return (
     <div className='comment'>
         <div className='user-info'>
-            <img className='avatar'
-                src ={props.user.avatarUrl}
-                alt={props.user.name}
+        <img className='avatar'
+            src ={props.author.avatarUrl}
+            alt={props.author.name}
             />
             <div className='UserInfo-Name'>
                 {props.author.name}

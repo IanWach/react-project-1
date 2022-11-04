@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Form from './Form';
-import Script from './Script';
-import Welcome from './Sample';
-import Comment from './Comment';
+import Form from './components/Form';
+import Script from './components/Script';
+import Welcome from './components/Sample';
+import Comment from './components/Comment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const comment = {
@@ -22,10 +22,10 @@ root.render(
     <Form />
     <Script />
     <Welcome name ='Ianno'/>
-    <Comment 
+    <Comment
       date={comment.date}
       text={comment.text}
-      author={comment.author}
+      author={comment.author} 
     />
   </React.StrictMode>
 );
