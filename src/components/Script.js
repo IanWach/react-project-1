@@ -4,9 +4,9 @@ import React from 'react'
 function Script() {
     const app = false;
 
-  return (
-    <div>{app ? 'fashion' : 'nonFashion'}</div>
-  )
+  // return (
+  //   <div>{app ? 'fashion' : 'nonFashion'}</div>
+  // )
 }
 
 export default Script

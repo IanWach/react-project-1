@@ -1,11 +1,11 @@
 import React from 'react'
-import './Form.css'
+import '../Form.css'
 
 export default function Form() {
-    const formName = "This is a Form"
+    const formName = "Sign Up Form"
     return(
-		<section>
-			<div>
+	    <section className='form-container'>
+            <div className='form-h-div'>
 				<h1>{formName}</h1>
 			</div>
 			<form className='form-section'>
